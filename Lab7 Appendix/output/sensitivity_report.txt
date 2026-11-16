@@ -1,0 +1,35 @@
+
+STATISTICAL ROBUSTNESS AND SENSITIVITY ANALYSIS
+
+Student: Acapulco
+Student ID: TUPM-26-1874
+
+Selected Features: ['Feature_203', 'Feature_107', 'Feature_280', 'Feature_499', 'Feature_279']
+
+Bootstrap Repetitions: 240
+
+Largest Change in Mean Difference:
+0.3634
+
+Features with Changed Difference Sign:
+[]
+
+Features with Changed Ranking:
+[]
+
+Reproducibility Verified: True
+
+INTERPRETATION:
+
+Available-case analysis excludes missing measurements
+when calculating each feature's group statistics.
+
+Median imputation replaces missing measurements using
+the median of each selected feature from the full dataset.
+
+The bootstrap confidence intervals describe the
+uncertainty in the estimated Fail-minus-Pass mean
+differences under each preparation strategy.
+
+Differences between the two strategies indicate
+sensitivity to missing-value treatment.
